@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="dip" printOrder="Horizontal" pageWidth="935" pageHeight="595" orientation="Landscape" whenNoDataType="BlankPage" columnWidth="895" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b39f6010-77e6-477a-84aa-32617df988a9">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="PPID"/>
+	<property name="com.jaspersoft.studio.unit." value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="mm"/>
+	<parameter name="idSkpd" class="java.lang.String"/>
+	<queryString language="SQL">
+		<![CDATA[CALL dip($P{idSkpd})]]>
+	</queryString>
+	<field name="skpd" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="skpd"/>
+		<property name="com.jaspersoft.studio.field.label" value="skpd"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="skpd"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="kategori" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="kategori"/>
+		<property name="com.jaspersoft.studio.field.label" value="kategori"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kategori"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="jenis" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="jenis"/>
+		<property name="com.jaspersoft.studio.field.label" value="jenis"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="jenis"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tipeFile" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="tipeFile"/>
+		<property name="com.jaspersoft.studio.field.label" value="tipeFile"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="tipefile"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="name" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="name"/>
+		<property name="com.jaspersoft.studio.field.label" value="name"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id"/>
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dip"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="judul" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="judul"/>
+		<property name="com.jaspersoft.studio.field.label" value="judul"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dip"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="idSkpd" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="idSkpd"/>
+		<property name="com.jaspersoft.studio.field.label" value="idSkpd"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dip"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="kandunganInformasi" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="kandunganInformasi"/>
+		<property name="com.jaspersoft.studio.field.label" value="kandunganInformasi"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dip"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="idKategori" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="idKategori"/>
+		<property name="com.jaspersoft.studio.field.label" value="idKategori"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dip"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="idJenis" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="idJenis"/>
+		<property name="com.jaspersoft.studio.field.label" value="idJenis"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dip"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="idTipeFile" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="idTipeFile"/>
+		<property name="com.jaspersoft.studio.field.label" value="idTipeFile"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dip"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="file" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="file"/>
+		<property name="com.jaspersoft.studio.field.label" value="file"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dip"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="statusDokumen" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="statusDokumen"/>
+		<property name="com.jaspersoft.studio.field.label" value="statusDokumen"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dip"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="keterangan" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="keterangan"/>
+		<property name="com.jaspersoft.studio.field.label" value="keterangan"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dip"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="idUsers" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="idUsers"/>
+		<property name="com.jaspersoft.studio.field.label" value="idUsers"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dip"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="created_at" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.name" value="created_at"/>
+		<property name="com.jaspersoft.studio.field.label" value="created_at"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dip"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="updated_at" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.name" value="updated_at"/>
+		<property name="com.jaspersoft.studio.field.label" value="updated_at"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dip"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="jml_diunduh" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="jml_diunduh"/>
+		<property name="com.jaspersoft.studio.field.label" value="jml_diunduh"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="53" splitType="Stretch">
+			<staticText>
+				<reportElement x="345" y="0" width="204" height="50" uuid="e6499609-5796-41ab-adc5-0e801d3680be"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DAFTAR DOKUMEN
+INFORMASI PUBLIK
+PPID KOTA BUKITTINGGI]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="38" splitType="Stretch">
+			<staticText>
+				<reportElement x="780" y="0" width="100" height="38" uuid="36e2620f-12c4-45da-8a8d-ec5dfd688b13"/>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[JML. UNDUH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="636" y="0" width="144" height="38" uuid="5b374ea5-01c5-48f1-bbc4-deb06aca91c5"/>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PENERBIT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="25" y="0" width="206" height="38" uuid="4ba72c8b-b62b-4a53-8988-4adc2e08a584"/>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[JUDUL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="0" width="24" height="38" uuid="07b6f1a5-62e7-44e0-a180-cafbf9c88052"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="231" y="0" width="206" height="38" uuid="927b3cf7-b315-45c0-9a51-999a4754d4b1"/>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SKPD]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="437" y="0" width="100" height="38" uuid="901c6d7d-6e8e-4c47-a585-7769b8ae7a01"/>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[JENIS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="537" y="0" width="99" height="38" uuid="ff48ef5e-9bbe-43f4-847f-b5e6cef8fb5d"/>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[KATEGORI]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="70" splitType="Stretch">
+			<textField>
+				<reportElement x="25" y="0" width="206" height="70" uuid="6a974176-431e-40bd-9bc1-3784579ec051">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="762aa85e-1362-4307-8612-51244c86b455"/>
+					<property name="com.jaspersoft.studio.unit.height" value="mm"/>
+				</reportElement>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{judul}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1" y="0" width="24" height="70" uuid="24e7cd5a-1b78-461b-9bfe-a32cae025c86"/>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="231" y="0" width="206" height="70" uuid="0067cf55-c335-4eaf-bced-884da8b06197">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e97271bc-455f-4e98-9c37-2cc095139fb0"/>
+					<property name="com.jaspersoft.studio.unit.height" value="mm"/>
+				</reportElement>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{skpd}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="437" y="0" width="100" height="70" uuid="5acb622d-bb70-42eb-a83f-41a51b0243a7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6c98a23d-c4f2-4cbe-9f39-d876ff7e1ee7"/>
+					<property name="com.jaspersoft.studio.unit.height" value="mm"/>
+				</reportElement>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{jenis}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="537" y="0" width="99" height="70" uuid="138fc527-74e8-46dd-aedf-f625e8be88fb">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0ecc0a48-1204-40e3-b445-358b874fea0a"/>
+					<property name="com.jaspersoft.studio.unit.height" value="mm"/>
+				</reportElement>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{kategori}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="636" y="0" width="144" height="23" uuid="c099002d-b0eb-4ea8-925e-e6808509236e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4d29d5e9-23a4-49d9-a0f7-c2d4a735102f"/>
+				</reportElement>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{skpd}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd MMMM yyyy, HH:mm:ss">
+				<reportElement x="636" y="23" width="144" height="23" uuid="4b6c2e67-41bc-4346-8a3a-27cbc149f6b2">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="40267786-8398-4c15-9d56-d84ba77d9515"/>
+				</reportElement>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{created_at}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="636" y="46" width="144" height="24" uuid="bf83e6cf-e5bf-4d2a-80ad-e12005e678e8">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ed069558-45c2-46a1-ab16-c7f9d3e932ba"/>
+				</reportElement>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="780" y="0" width="100" height="70" uuid="c4fee61f-3e6c-4d07-83d5-bc731b660c82">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9fd47f54-280f-4186-9a41-c9feeaafd6e7"/>
+				</reportElement>
+				<box padding="1">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{jml_diunduh}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="30" splitType="Stretch">
+			<textField pattern="dd MMMM yyyy, HH:mm:ss">
+				<reportElement x="60" y="6" width="140" height="19" uuid="60926013-d3ec-45eb-b226-7442cf68d8ec"/>
+				<box padding="1"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="445" y="0" width="100" height="30" uuid="d784a6ba-0abd-4bfe-b81c-72b0b2bae59b"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" of " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="345" y="0" width="100" height="30" uuid="3d17b627-1b3e-4161-b581-2e031099aca0"/>
+				<textElement textAlignment="Right">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1" y="6" width="59" height="19" uuid="cf6a9946-b87d-4ada-9e15-4afc6b6aabfb"/>
+				<box padding="1"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Printed on :]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>
